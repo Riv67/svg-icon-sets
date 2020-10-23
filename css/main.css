@@ -12,3 +12,79 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+h1 {
+  color: rgba(255, 255, 255, .7);
+  text-align: left;
+  padding: 1rem;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, .7);
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  width: 8rem;
+}
+
+a {
+  padding: 1rem;
+  border: .2rem solid rgba(255, 255, 255, .7);
+  text-decoration: none;
+  color: rgba(255, 255, 255, .7);
+  font-size: 1.125rem;
+}
+
+a:hover,
+a:focus {
+  color: #acc300;
+}
+
+.icon {
+  position: relative;
+  height: 8em;
+  width: 8em;
+}
+
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: #fff;
+}
+
+section {
+  padding: 6vmin;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+  color: rgba(255, 255, 255, .7);
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
